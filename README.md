@@ -33,20 +33,6 @@ langchain v.0.1.12
 
 openai v.1.13.3
 
-## Environment
-
-~/miniconda3/python v.3.10.0
-
-streamlit v.1.31.1
-
-streamlit-image-select v.0.6.0
-
-pandas v.2.2.1
-
-langchain v.0.1.12
-
-openai v.1.13.3
-
 ## Reference sites
 
 ### https://www.kaggle.com/datasets/lsind18/tarot-json
