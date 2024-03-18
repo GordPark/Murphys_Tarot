@@ -17,7 +17,7 @@
 
 ## Getting Tarot
 
-...
+```Record.mp4```
 
 ## Environment
 
