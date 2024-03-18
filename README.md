@@ -35,4 +35,5 @@ openai                  v.1.13.3
 |0|The Fool|0|Major Arcana|Trump|m00.jpg|...|
 |1|The Magician|1|Major Arcana|Trump|m01.jpg|...|
 |2|The High Priestess|2|Major Arcana|Trump|m02.jpg|...|
+|...|...|...|...|...|...|...|
 
