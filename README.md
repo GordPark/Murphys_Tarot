@@ -18,19 +18,20 @@
 ## Getting Tarot
 
 ...
+
 ## Environment
 
-~/miniconda3/python     v.3.10.0
+~/miniconda3/python v.3.10.0
 
-streamlit               v.1.31.1
+streamlit v.1.31.1
 
-streamlit-image-select  v.0.6.0
+streamlit-image-select v.0.6.0
 
-pandas                  v.2.2.1
+pandas v.2.2.1
 
-langchain               v.0.1.12
+langchain v.0.1.12
 
-openai                  v.1.13.3
+openai v.1.13.3
 
 ## Environment
 
@@ -49,7 +50,6 @@ openai v.1.13.3
 ## Reference sites
 
 ### https://www.kaggle.com/datasets/lsind18/tarot-json
-<<<<<<< HEAD
 
 | index | name               | number | arcana       | suit  | img     | ... |
 | ----- | ------------------ | ------ | ------------ | ----- | ------- | --- |
@@ -57,12 +57,3 @@ openai v.1.13.3
 | 1     | The Magician       | 1      | Major Arcana | Trump | m01.jpg | ... |
 | 2     | The High Priestess | 2      | Major Arcana | Trump | m02.jpg | ... |
 | ...   | ...                | ...    | ...          | ...   | ...     | ... |
-=======
-|index|name|number|arcana|suit|img|...|
-|---|---|---|---|---|---|---|
-|0|The Fool|0|Major Arcana|Trump|m00.jpg|...|
-|1|The Magician|1|Major Arcana|Trump|m01.jpg|...|
-|2|The High Priestess|2|Major Arcana|Trump|m02.jpg|...|
-|...|...|...|...|...|...|...|
-
->>>>>>> 7c44a7eb5a25e51fe8619a09057c56b38c030b1a
