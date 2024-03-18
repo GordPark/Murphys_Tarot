@@ -35,4 +35,4 @@ openai                  v.1.13.3
 |0|The Fool|0|Major Arcana|Trump|m00.jpg|Watch for new projects and new beginnings Prepare to take something on faith Something new comes your way; go for it|freedom faith inexperience innocence|
 |1|The Magician|1|Major Arcana|Trump|m01.jpg|A powerful man may play a role in your day Your current situation must be seen as one element of a much larger plan|freedom faith inexperience innocence|
 |2|The High Priestess|2|Major Arcana|Trump|m02.jpg|A mysterious woman arrives A sexual secret may surface Someone knows more than he or she will reveal|intuition reflection purity initiation|
-|...|-|-|-|-|-|-|-|
+
