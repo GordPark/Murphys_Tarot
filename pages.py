@@ -13,7 +13,7 @@ import time
 import random
 import os
 
-
+####### home
 def home():
     st.title("머피타로에 방문하신걸 환영합니다")
     st.subheader("🔮🔮🔮🔮🔮🔮🔮🔮🔮🔮🔮🔮🔮🔮🔮🔮🔮🔮🔮")
@@ -77,7 +77,7 @@ def home():
     cardsImgs = json_normalize(cardsImgs['cards'])
     st.write(cardsImgs)
     
-
+####### choice
 def choice():
     st.title("CHOICE")
     st.info("💡 카드 3장을 신중하게 골라주세요.")
@@ -98,7 +98,7 @@ def choice():
         cards_path = [folder_path + i for i in random_cards]
         st.session_state.image_paths = cards_path      
               
-    left_co, cent_co,last_co = st.columns(3)
+    left_co, cent_co,right_co = st.columns(3)
     # 이미지 인덱스를 기억하기 위한 변수
     if 'image_index' not in st.session_state:
         # 기본 back카드가 따로 있어 인덱스는 -1로 시작
@@ -179,7 +179,8 @@ def choice():
     # image가 없을 때 예외처리            
     except ValueError as e:
         print(e)
-    
+
+####### tarot_chat
 def tarot_chat():
     st.title("타로 ChatBot")
     # .env파일의 환경변수에 접근 
@@ -280,12 +281,13 @@ def tarot_chat():
             # reponse에서 받은 대화의 응답을 assistant 역할의 메세지로 변환 후 세션상태 메세지 목록에 추가
             st.session_state.messages.append(ChatMessage(role="assistant", content=response.content))
 
-# 업데이트 예정
+####### 업데이트예정
 def murphys_map():
     st.title("머피지도")
     st.info("💡 머피지도는 아직 발견되지 못했습니다.")
     st.markdown("## 찾으신 분 연락주세요.. ")
 
+####### tarot_image
 def tarot_image():
     st.title("AI가 만들어주는 타로이미지")
     st.info("💡 현재 선택한 카드의 데이터로 이미지가 생성됩니다.")
